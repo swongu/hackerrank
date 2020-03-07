@@ -15,7 +15,7 @@ public class Solution {
     // Complete the dayOfProgrammer function below.
     static String dayOfProgrammer(int year) {
         if (year < 1918) return julian(year);
-        else if (year == 1918) return "13.09.1918";
+        else if (year == 1918) return "26.09.1918";
         else return gregorian(year);
     }
 
